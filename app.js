@@ -7,7 +7,7 @@ const contactRoute = require("./routes/contact");
 
 mongoose
   .connect(
-    "mongodb+srv://ReactAPI:api123@api.jlum4.mongodb.net/?retryWrites=true&w=majority&appName=API"
+    "mongodb+srv://api:api@api.5zx2v.mongodb.net/?retryWrites=true&w=majority&appName=api"
   )
   .then((res) => {
     console.log("connected to database");
